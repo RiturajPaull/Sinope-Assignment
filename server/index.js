@@ -21,7 +21,7 @@ app.use("/api/auth", userRouter);
 app.use("/api/blogs", blogRouter);
 app.use("/api/users", userDetailsRouter);
 
-app.get("/", (_, resp) => {
+app.get("/", (req, resp) => {
   resp.send("Hello Sinope Server is running");
 });
 connectDB().then(() => {
