@@ -75,3 +75,23 @@ GET /api/users/me – Get logged-in user details
 
 ### 🏠 Home Page
 ![Home Page](./assets/screenshots/Home.png)
+
+### 🏠 Register
+![Register Component](./assets/screenshots/Register.png)
+
+### 🏠 Login
+![Login Component](./assets/screenshots/Login.png)
+
+### 🏠 All Blogs Fetch
+![All Fetched Blogs Component](./assets/screenshots/AllBlogs.png)
+
+### 🏠 Author Create Blog
+![Author Create Blog Page](./assets/screenshots/CreateBlog.png)
+
+
+---
+
+## 🧑‍💻 Author
+Rituraj Paul
+
+---
