@@ -44,3 +44,34 @@ JWT_SECRET=your_jwt_secret
 
 ```
 
+---
+
+## 📡 API Endpoints (Brief)
+
+### 📁 1. Auth
+
+POST /api/auth/register – Register a user
+POST /api/auth/login – Log in a user
+POST /api/auth/logout – Log out a user
+
+
+### 📁 2. Blog
+
+POST /api/blogs – Create a blog post
+GET /api/blogs/getBlogs – Get all blog posts
+GET /api/blogs/:id – Get a blog post by ID
+PUT /api/blogs/update/:id – Update a blog post
+DELETE /api/blogs/delete/:id – Delete a blog post
+GET /api/blogs/getAuthorBlogs – Get blogs by the logged-in author
+
+### 📁 3. User
+
+GET /api/users/me – Get logged-in user details
+
+---
+
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](./assets/screenshots/Home.png)
