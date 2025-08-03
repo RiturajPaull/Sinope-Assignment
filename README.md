@@ -4,6 +4,14 @@ A full-stack blog application where users can register, log in, and create/updat
 
 ---
 
+
+## 🌐 Live Demo
+
+👉 [https://sinope-assignment.vercel.app/](https://sinope-assignment.vercel.app/)
+
+---
+
+
 ## 🔧 Setup Instructions
 
 ### 📁 1. Clone the Repository
