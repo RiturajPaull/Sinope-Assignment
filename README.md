@@ -54,6 +54,54 @@ JWT_SECRET=your_jwt_secret
 
 ---
 
+## 🎨 Tailwind CSS Usage
+
+
+### 1. Install Tailwind CSS
+
+```bash
+npm install tailwindcss @tailwindcss/vite
+```
+
+### 2. Configure the Vite plugin
+
+```bash
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+```
+
+### 3. Import Tailwind CSS in App.css or index.css
+
+```bash
+@import "tailwindcss";
+
+```
+
+
+### 4. Start your build process
+
+```bash
+npm run dev
+
+```
+
+### Start using tailwind in your html by adding the below link in the index.html
+
+```bash
+ <link href="/src/style.css" rel="stylesheet">
+
+```
+
+
+
+---
+
 ## 📡 API Endpoints (Brief)
 
 ### 📁 1. Auth
